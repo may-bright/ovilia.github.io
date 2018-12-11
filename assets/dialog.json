@@ -364,24 +364,121 @@
     }, {
         "id": "0028",
         "details": [
-            ["<img src='img/photo-1.jpg'>", "交大闵行校区的图书馆楼梯"]
+            ["你想要看哪些题材的呢"]
         ],
         "responses": [{
+            "content": "天空",
+            "nextXianzhe": ["00007"]
+        },{
+            "content": "大海",
+            "nextXianzhe": ["00008"]
+        },{
+            "content": "阿狸",
+            "nextXianzhe": ["00009"]
+        },{
+            "content": "人物",
+            "nextXianzhe": ["000010"]
+        },{
+            "content": "抓拍",
+            "nextXianzhe": ["000011"]
+        },{
+            "content": "你喜欢什么样的作品呢",
+            "nextXianzhe": ["000012"]
+        },{
             "content": "这是你最满意的作品吗？",
             "nextXianzhe": ["0029"]
-        }]
+        },{
+            "content": "算了，我突然不想看了",
+            "nextXianzhe": ["0012"]
+        }
+    ]
     }, {
         "id": "0029",
         "details": [
-            ["不，最满意的是这张", "<img src='img/yumao-smile.jpg'>"]
+            ["不，最满意的是这张", "<img src='img/xsm.jpg'>","毕竟","把喜欢的姑娘拍好看才是正事"]
         ],
         "responses": [{
             "content": "……"
         }, {
-            "content": "不就是狗粮费么？！拿去就是！",
-            "nextXianzhe": ["0037"]
+            "content": "祝福你~"
+        },{
+            "content": "不就是狗粮么？！我吃还不行么？！",
+            "nextXianzhe": ["0028"]
         }]
     }, {
+        "id": "00007",
+        "details": [
+            ["<img src='img/tiankong.jpg'>","这张是保福寺桥的路口"]
+        ],
+        "responses": [{
+            "content": "还不错，想看看其他的作品",
+            "nextXianzhe": ["0028"]
+        },{
+            "content": "算了，我突然不想看了",
+            "nextXianzhe": ["0012"]
+        }]
+    },{
+        "id": "00008",
+        "details": [
+            ["<img src='img/dahai.jpg'>","这张是台湾花莲的七星潭","面前的就是太平洋"]
+        ],
+        "responses": [{
+            "content": "还不错，想看看其他的作品",
+            "nextXianzhe": ["0028"]
+        },{
+            "content": "算了，我突然不想看了",
+            "nextXianzhe": ["0012"]
+        }]
+    },{
+        "id": "00009",
+        "details": [
+            ["<img src='img/ali.jpg'>","这张是在苏州的一家书店拍的"]
+        ],
+        "responses": [{
+            "content": "还不错，想看看其他的作品",
+            "nextXianzhe": ["0028"]
+        },{
+            "content": "算了，我突然不想看了",
+            "nextXianzhe": ["0012"]
+        }]
+    },{
+        "id": "000010",
+        "details": [
+            ["<img src='img/renwu.jpg'>","这张也是在台湾花莲，像不像"]
+        ],
+        "responses": [{
+            "content": "还不错，想看看其他的作品",
+            "nextXianzhe": ["0028"]
+        },{
+            "content": "算了，我突然不想看了",
+            "nextXianzhe": ["0012"]
+        }]
+    },{
+        "id": "000011",
+        "details": [
+            ["<img src='img/zhuapai.jpg'>","这张……看过就忘掉吧……"]
+        ],
+        "responses": [{
+            "content": "还不错，想看看其他的作品",
+            "nextXianzhe": ["0028"]
+        },{
+            "content": "算了，我突然不想看了",
+            "nextXianzhe": ["0012"]
+        }]
+    },{
+        "id": "000012",
+        "details": [
+            ["<img src='img/haitan.jpg'>","<img src='img/yinhe.jpg'>","<img src='img/jiguang.jpg'>","我好喜欢这些海滩、银河和极光啊","有时间我也在学习摄影，希望自己也能去到这样的地方，探索这个世界的美好，拍摄出这样的作品"]
+        ],
+        "responses": [{
+            "content": "祝你实现你的目标~",
+            "nextXianzhe": ["0028"]
+        },{
+            "content": "算了，我突然不想看了",
+            "nextXianzhe": ["0012"]
+        }]
+    },
+    {
         "id": "0030",
         "details": [
             ["我美吗？"]
@@ -434,7 +531,7 @@
             ]
         ],
         "responses": [{
-            "content": "我有酒，你有故事吗……"
+            "content": "我有故事，你有酒吗"
         }]
     }, {
         "id": "0034",

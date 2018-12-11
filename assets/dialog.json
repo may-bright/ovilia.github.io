@@ -86,7 +86,7 @@
                 "有点三分钟热度，所以接触的兴趣爱好倒不少，就是都没啥特别厉害的~"
             ]
         ],
-        "nextXianzhe": ["0013"]
+        // "nextXianzhe": "0013"
     }, {
         "id": "0008",
         "details": [
@@ -125,7 +125,7 @@
         "details": [
             [ "小说方面比较喜欢金庸的武侠系列，JK罗琳的《哈利波特》系列，天下霸唱的《鬼吹灯》系列以及雷米的《心理罪》系列，最近在看阿加莎的《无人生还》","专业书方面最近在看《深入浅出Python机器学习》和《Kubernetes权威指南》","还有其他专业的书最近在看《物种起源》和《心理学基础》，怎么样，我是不是够无聊？"]
         ],
-        "nextXianzhe": ["0013"]
+        // "nextXianzhe": "0013"
     }, {
         "id": "0012",
         "details": [
@@ -347,8 +347,10 @@
         "details": [
             [
                 "主页的创意来自对话式的游戏",
-                "现在很多时候，我们了解一个人都是通过类似的即时工具聊天吧？",
-                "这样聊天产生的对我的印象，又比现实中偏差大多少呢？"
+                "非常感谢原作者羡辙，我只是在她的基础上做了点改动",
+                "她的源代码在 GitHub 上开源，地址是", "<a href='https://github.com/Ovilia/ovilia.github.io'>https://github.com/Ovilia/ovilia.github.io</a>"
+                // "现在很多时候，我们了解一个人都是通过类似的即时工具聊天吧？",
+                // "这样聊天产生的对我的印象，又比现实中偏差大多少呢？"
             ]
         ],
         "responses": [{
@@ -385,7 +387,7 @@
             "content": "你喜欢什么样的作品呢",
             "nextXianzhe": ["000012"]
         },{
-            "content": "这是你最满意的作品吗？",
+            "content": "这些就是你最满意的作品吗？",
             "nextXianzhe": ["0029"]
         },{
             "content": "算了，我突然不想看了",
@@ -537,24 +539,23 @@
         "id": "0034",
         "details": [
             [
-                "当然，写得比较仓促，可能有些细节处理得不是很好，后面会进一步加工",
-                "但重要的是，我想通过这样一个主页传递一个信息",
-                "就是",
-                "这个世界上大部分人的大部分时间都在做很无聊的事，但我仍希望能有一小部分自我，能稍稍地带来一些不同"
+                "时间仓促，做的还比较粗糙，主页的其他部分，以后有时间会慢慢的做",
+                "非常感谢您能在这里上停留，听我这些碎碎念",
+                "希望这样我，能够让您觉得有趣吧",
+                "谢谢^-^"
             ]
         ],
         "responses": [{
-            "content": "……",
+            "content": "阿蓝最棒了~",
             "nextXianzhe": ["0035"]
         }]
     }, {
         "id": "0035",
         "details": [
-            ["对了，本站的动画效果都是<del>男朋友</del><ins>老公</ins>帮我写的", "<a href='https://github.com/devyumao'>GitHub</a> 和<a href='http://weibo.com/u/2769530531'>微博</a> ID 都是 devyumao"]
+            ["如果您还有什么想跟我说的", "可以发邮件给我，我的邮箱是zhaor_thu@163.com"]
         ],
         "responses": [{
-            "content": "这恩爱秀得……行行行，狗粮费拿去就是！",
-            "nextXianzhe": ["0037"]
+            "content": "好的，我会发邮件给你啦~"
         }, {
             "content": "我要围观代码！",
             "nextXianzhe": ["0036"]
@@ -562,7 +563,7 @@
     }, {
         "id": "0036",
         "details": [
-            ["代码在 GitHub 上开源", "<a href='https://github.com/Ovilia/ovilia.github.io'>https://github.com/Ovilia/ovilia.github.io</a>", "欢迎围观点赞"]
+            ["代码在 GitHub 上开源", "<a href='https://github.com/Ovilia/ovilia.github.io'>https://github.com/Ovilia/ovilia.github.io</a>", "再次感谢原作者羡辙~"]
         ]
     }, {
         "id": "0037",
